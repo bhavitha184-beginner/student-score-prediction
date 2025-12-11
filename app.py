@@ -5,7 +5,7 @@ from sklearn.linear_model import LinearRegression
 
 st.title("Student Score Prediction App")
 
-df=pd.read_csv("Student_scores.csv")
+df=pd.read_csv("student_scores.csv")
 
 x=df[['Hours']]
 y=df['Score']
