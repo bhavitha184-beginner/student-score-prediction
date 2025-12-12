@@ -5,7 +5,7 @@ import io
 import numpy as np
 from sklearn.linear_model import LinearRegression
 
-st.title("💜 Student Score Prediction App (Purple Theme)")
+st.title(" Student Score Prediction App (Purple Theme)")
 
 # Load dataset
 df = pd.read_csv("student_scores.csv")
